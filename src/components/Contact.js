@@ -29,6 +29,15 @@ export const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    // Check if all fields are filled
+    if (!formDetails.firstName || !formDetails.lastName || !formDetails.email || !formDetails.phone || !formDetails.message) {
+      setStatus({
+        success: false,
+        message: 'Please fill in all fields before sending.'
+      });
+      return;
+    }
+
     // Phone number validation: must be exactly 10 digits
     const phoneRegex = /^\d{10}$/;
     if (!phoneRegex.test(formDetails.phone)) {
