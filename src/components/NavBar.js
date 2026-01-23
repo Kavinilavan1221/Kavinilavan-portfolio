@@ -4,6 +4,7 @@ import { Logo } from "./Logo";
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import WhatsAppIcon from '../assets/img/whatsapp-icon.svg';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -53,6 +54,7 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/in/uthayarasa-kavinilavan/" target="_blank"><img src={navIcon1} alt="" /></a>
                 <a href="https://web.facebook.com/uthayarasa.kavinilavan" target="_blank"><img src={navIcon2} alt="" /></a>
                 <a href="https://github.com/Kavinilavan1221" target="_blank"><img src={navIcon3} alt="" /></a>
+                <a href="https://wa.me/94765553365" target="_blank"><img src={WhatsAppIcon} alt="" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
