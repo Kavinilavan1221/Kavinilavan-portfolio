@@ -29,6 +29,16 @@ export const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    // Phone number validation: must be exactly 10 digits
+    const phoneRegex = /^\d{10}$/;
+    if (!phoneRegex.test(formDetails.phone)) {
+      setStatus({
+        success: false,
+        message: 'Please enter a valid 10-digit phone number.'
+      });
+      return;
+    }
+
     // Check if EmailJS credentials are provided
     if (!process.env.REACT_APP_EMAILJS_SERVICE_ID || !process.env.REACT_APP_EMAILJS_TEMPLATE_ID || !process.env.REACT_APP_EMAILJS_PUBLIC_KEY) {
       setStatus({
@@ -94,7 +104,18 @@ export const Contact = () => {
                         <input type="email" name="email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate('email', e.target.value)} />
                       </Col>
                       <Col size={12} sm={6} className="px-1">
-                        <input type="tel" name="phone" value={formDetails.phone} placeholder="Phone No." onChange={(e) => onFormUpdate('phone', e.target.value)} />
+                        <input
+                          type="tel"
+                          name="phone"
+                          value={formDetails.phone}
+                          placeholder="Phone No."
+                          onChange={(e) => {
+                            const value = e.target.value.replace(/\D/g, ''); // Only allow digits
+                            if (value.length <= 10) {
+                              onFormUpdate('phone', value);
+                            }
+                          }}
+                        />
                       </Col>
                       <Col size={12} className="px-1">
                         <textarea rows="6" name="message" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
