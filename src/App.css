@@ -716,18 +716,54 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 1;
 }
 
+.proj-txtx span {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  display: block;
+  margin-top: 10px;
+}
+
+.proj-permanent-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 100%);
+  transition: 0.4s ease-in-out;
+  z-index: 1;
+}
+
+.proj-permanent-title h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+  margin: 0;
+  background: none;
+  -webkit-background-clip: unset;
+  background-clip: unset;
+  -webkit-text-fill-color: initial;
+}
+
+.proj-imgbx:hover .proj-permanent-title {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
 .proj-txtx h4 {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
-}
-
-.proj-txtx span {
-  font-style: italic;
-  font-weight: 400;
-  font-size: 15px;
-  letter-spacing: 0.8px;
+  color: #000000;
+  margin-bottom: 20px;
+  background: none;
+  -webkit-background-clip: unset;
+  background-clip: unset;
+  -webkit-text-fill-color: initial;
 }
 
 .background-image-right {

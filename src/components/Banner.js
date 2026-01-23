@@ -63,7 +63,7 @@ export const Banner = () => {
                     known for my unwavering commitment to project completion and
                     meticulous attention to detail. With a fervent passion for the IT industry, I'm
                     highly motivated to explore and research its evolving facets.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => document.getElementById('connect').scrollIntoView({ behavior: 'smooth' })}>Let’s Connect <ArrowRightCircle size={25} /></button>
                 </div>}
             </TrackVisibility>
           </Col>

@@ -14,9 +14,10 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Dogs Skin Disease Detection and Treatment Suggestion",
+      title: "Dogs Skin Disease Detection and Treatment Suggestions",
       description: "Research using CNN (MobileNet V2) & Federated Learning (FedAVG) for disease detection and treatment suggestions.",
       imgUrl: dogSkinImg,
+      hidePermanentTitle: true,
     },
     {
       title: "Online Hotel Reservation System",
@@ -42,6 +43,7 @@ export const Projects = () => {
       title: "Online Furniture Shop Management",
       description: "MERN Stack System (React, Node, Express, MongoDB). Features Complaint Forms, Admin Dashboard, Reports, Search.",
       imgUrl: furnitureImg,
+      hidePermanentTitle: true,
     },
   ];
 
