@@ -37,7 +37,7 @@ export const NavBar = () => {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="#home" onClick={() => onUpdateActiveLink('home')}>
             <Logo />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
