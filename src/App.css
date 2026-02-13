@@ -286,31 +286,32 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     text-align: center;
     padding-bottom: 30px;
   }
-  
+
   span.navbar-text {
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    width: 100%;
     margin-top: 20px;
   }
 
   .social-icon {
-    margin-left: 0;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
-    margin-bottom: 15px;
+    margin-left: 0 !important;
+    margin-bottom: 25px;
   }
 
-  .navbar-text button {
-    margin-left: 0;
-    margin-bottom: 10px;
+  /* Target both the Download CV link and Let's Connect HashLink */
+  span.navbar-text>a {
+    display: inline-block;
+    margin: 10px 0;
+    width: auto;
   }
 
-  .navbar-text a {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  /* Reset margins on the buttons inside */
+  span.navbar-text button {
+    margin-left: 0 !important;
   }
 }
 
