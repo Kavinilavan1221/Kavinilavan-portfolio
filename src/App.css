@@ -280,6 +280,40 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
 
+@media (max-width: 767px) {
+  nav.navbar .navbar-collapse {
+    background-color: #121212;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  span.navbar-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .social-icon {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .navbar-text button {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .navbar-text a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
