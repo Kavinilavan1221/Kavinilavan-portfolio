@@ -974,6 +974,36 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 500;
   letter-spacing: 0.5px;
   border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.new-email-bx button span {
+  z-index: 1;
+  position: relative;
+}
+
+.new-email-bx button::before {
+  content: "";
+  background: #121212;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+  border-radius: 20px;
+}
+
+.new-email-bx button:hover::before {
+  width: 100%;
+}
+
+.new-email-bx button:hover {
+  color: #fff;
 }
 
 .footer img {
