@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Kavinilavan-portfolio/static/css/main.d71eaeb7.css",
+    "main.css": "/Kavinilavan-portfolio/static/css/main.76626455.css",
     "main.js": "/Kavinilavan-portfolio/static/js/main.3909c4f9.js",
     "static/js/787.8957bf1f.chunk.js": "/Kavinilavan-portfolio/static/js/787.8957bf1f.chunk.js",
     "static/media/color-sharp.png": "/Kavinilavan-portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -32,12 +32,12 @@
     "static/media/arrow2.svg": "/Kavinilavan-portfolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/Kavinilavan-portfolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav-icon2.svg": "/Kavinilavan-portfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.d71eaeb7.css.map": "/Kavinilavan-portfolio/static/css/main.d71eaeb7.css.map",
+    "main.76626455.css.map": "/Kavinilavan-portfolio/static/css/main.76626455.css.map",
     "main.3909c4f9.js.map": "/Kavinilavan-portfolio/static/js/main.3909c4f9.js.map",
     "787.8957bf1f.chunk.js.map": "/Kavinilavan-portfolio/static/js/787.8957bf1f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d71eaeb7.css",
+    "static/css/main.76626455.css",
     "static/js/main.3909c4f9.js"
   ]
 }
