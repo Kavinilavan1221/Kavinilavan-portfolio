@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Kavinilavan-portfolio/static/css/main.093b60fb.css",
-    "main.js": "/Kavinilavan-portfolio/static/js/main.89bc7668.js",
+    "main.css": "/Kavinilavan-portfolio/static/css/main.d21e2e0b.css",
+    "main.js": "/Kavinilavan-portfolio/static/js/main.25d69ed7.js",
     "static/js/787.8957bf1f.chunk.js": "/Kavinilavan-portfolio/static/js/787.8957bf1f.chunk.js",
     "static/media/color-sharp.png": "/Kavinilavan-portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/dog-skin.png": "/Kavinilavan-portfolio/static/media/dog-skin.3aaa467ba0664e78d5a2.png",
@@ -32,12 +32,12 @@
     "static/media/arrow2.svg": "/Kavinilavan-portfolio/static/media/arrow2.b3d03e1b04ec1904a5658aea5776433c.svg",
     "static/media/arrow1.svg": "/Kavinilavan-portfolio/static/media/arrow1.1088f8313e5637897aff2414e5938141.svg",
     "static/media/nav-icon2.svg": "/Kavinilavan-portfolio/static/media/nav-icon2.a39f0e5e47e442dafcc5c9c320f19f6f.svg",
-    "main.093b60fb.css.map": "/Kavinilavan-portfolio/static/css/main.093b60fb.css.map",
-    "main.89bc7668.js.map": "/Kavinilavan-portfolio/static/js/main.89bc7668.js.map",
+    "main.d21e2e0b.css.map": "/Kavinilavan-portfolio/static/css/main.d21e2e0b.css.map",
+    "main.25d69ed7.js.map": "/Kavinilavan-portfolio/static/js/main.25d69ed7.js.map",
     "787.8957bf1f.chunk.js.map": "/Kavinilavan-portfolio/static/js/787.8957bf1f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.093b60fb.css",
-    "static/js/main.89bc7668.js"
+    "static/css/main.d21e2e0b.css",
+    "static/js/main.25d69ed7.js"
   ]
 }
