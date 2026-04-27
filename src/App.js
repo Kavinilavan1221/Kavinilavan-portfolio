@@ -8,6 +8,9 @@ import { DetailedSkills } from "./components/DetailedSkills";
 import { Education } from "./components/Education";
 import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
+import { ReflectiveJournal } from "./components/ReflectiveJournal";
+import { CareerPlan } from "./components/CareerPlan";
+import { Certificates } from "./components/Certificates";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 
@@ -21,6 +24,9 @@ function App() {
       <Education />
       <Experience />
       <Projects />
+      <ReflectiveJournal />
+      <CareerPlan />
+      <Certificates />
       <Contact />
       <Footer />
     </div>

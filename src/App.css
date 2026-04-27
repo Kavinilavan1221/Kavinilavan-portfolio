@@ -147,7 +147,9 @@ span.navbar-text {
 }
 
 .social-icon {
-  display: inline-block;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
   margin-left: 14px;
 }
 
@@ -193,9 +195,9 @@ span.navbar-text {
   font-weight: 700;
   color: #fff;
   border: 1px solid #fff;
-  padding: 18px 34px;
-  font-size: 18px;
-  margin-left: 18px;
+  padding: 12px 25px;
+  font-size: 16px;
+  margin-left: 15px;
   position: relative;
   background-color: transparent;
   transition: 0.3s ease-in-out;
@@ -298,6 +300,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
   .social-icon {
     display: inline-flex;
+    flex-direction: row;
     justify-content: center;
     margin-left: 0 !important;
     margin-bottom: 25px;
@@ -1072,5 +1075,260 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
   .footer img {
     width: 40%;
+  }
+}
+
+/************ Reflective Journal Css ************/
+.reflective-journal {
+  padding: 50px 0;
+  position: relative;
+  background-color: #121212;
+}
+
+.journal-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+}
+
+.journal-bx h2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.journal-content {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.journal-entry h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.journal-entry ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 30px;
+}
+
+.journal-entry li {
+  font-size: 18px;
+  color: #B8B8B8;
+  margin-bottom: 15px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.journal-entry li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: #AA367C;
+}
+
+.journal-entry p {
+  font-size: 18px;
+  line-height: 1.6em;
+  color: #B8B8B8;
+}
+
+/************ Career Plan Css ************/
+.career-plan {
+  padding: 50px 0;
+  position: relative;
+  background-color: #121212;
+}
+
+.career-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+}
+
+.career-bx h2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.career-roadmap {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.roadmap-item {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: 0.3s ease-in-out;
+}
+
+.roadmap-item:hover {
+  transform: translateY(-10px);
+  border-color: #AA367C;
+}
+
+.roadmap-item h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.roadmap-item ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.roadmap-item li {
+  color: #B8B8B8;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.roadmap-item li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #4A2FBD;
+}
+
+.background-image-right {
+  top: 20%;
+  position: absolute;
+  right: 0;
+  width: 40%;
+  z-index: -4;
+}
+
+/************ Certificates Css ************/
+.certificates {
+  padding: 50px 0;
+  background-color: black;
+}
+
+.cert-bx {
+  text-align: center;
+  background: #151515;
+  border-radius: 64px;
+  padding: 60px 50px;
+}
+
+.cert-bx h2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.cert-bx p {
+  color: #B8B8B8;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.cert-list {
+  text-align: left;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cert-link {
+  text-decoration: none !important;
+  display: block;
+}
+
+.cert-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  margin-bottom: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: 0.3s ease-in-out;
+}
+
+.cert-item:hover {
+  transform: scale(1.02);
+  border-color: #AA367C;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.cert-info h4 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.cert-info span {
+  font-size: 16px;
+  color: #B8B8B8;
+}
+
+.cert-date span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #AA367C;
+  background: rgba(170, 54, 124, 0.1);
+  padding: 5px 15px;
+  border-radius: 15px;
+}
+
+@media (max-width: 767px) {
+  .cert-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+}
+
+/************ Print Media Query ************/
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  
+  .navbar, .social-icon, button, .background-image-left, .background-image-right {
+    display: none !important;
+  }
+  
+  section {
+    padding: 20px 0 !important;
+    page-break-inside: avoid;
+  }
+  
+  .skill-bx, .journal-bx, .career-bx, .education-bx, .experience-bx {
+    background: none !important;
+    border: 1px solid #ccc !important;
+    color: black !important;
+  }
+  
+  h1, h2, h3, h4 {
+    color: black !important;
+    -webkit-text-fill-color: initial !important;
+    background: none !important;
+  }
+  
+  p, li, span {
+    color: #333 !important;
+  }
+  
+  .banner {
+    padding-top: 50px !important;
+    background-image: none !important;
   }
 }
