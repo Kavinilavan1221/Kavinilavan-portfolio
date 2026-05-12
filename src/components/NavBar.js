@@ -48,7 +48,6 @@ export const NavBar = () => {
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
-              <Nav.Link href="#journal" className={activeLink === 'journal' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('journal')}>Journal</Nav.Link>
               <Nav.Link href="#career" className={activeLink === 'career' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('career')}>Career</Nav.Link>
               <Nav.Link href="#certificates" className={activeLink === 'certificates' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('certificates')}>Certificates</Nav.Link>
             </Nav>
@@ -59,7 +58,7 @@ export const NavBar = () => {
                 <a href="https://github.com/Kavinilavan1221" target="_blank"><img src={navIcon3} alt="" /></a>
                 <a href="https://wa.me/94765553365" target="_blank"><img src={WhatsAppIcon} alt="" /></a>
               </div>
-              <a href={`${process.env.PUBLIC_URL}/Kavin_CV.pdf`} download="Kavin_CV.pdf" className="vvd">
+              <a href={`${process.env.PUBLIC_URL}/Uthayarasa%20Kavinilavan.pdf`} download="Uthayarasa Kavinilavan.pdf" className="vvd">
                 <button><span>Download CV</span></button>
               </a>
               <HashLink to='#connect'>
